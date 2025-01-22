@@ -1,0 +1,52 @@
+/* == global css start here === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* == global css end here === */
+
+
+/* === navbar start here ==== */
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    height: 50px;
+    background: red;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    gap: 10px;
+}
+/* === navbar end here ==== */
+
+/* === navbar start here ==== */
+/* === navbar end here ==== */
+
+/* === navbar start here ==== */
+/* === navbar end here ==== */
+
+/* === navbar start here ==== */
+/* === navbar end here ==== */
+
+/* === navbar start here ==== */
+/* === navbar end here ==== */
+
+/* === navbar start here ==== */
+/* === navbar end here ==== */
+
