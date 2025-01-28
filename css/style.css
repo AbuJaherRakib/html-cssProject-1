@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p{
 #navbar{
     
     background: #071B27;
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     top: 0;
@@ -162,8 +162,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* === banner end here ==== */
 
-/* === navbar start here ==== */
-/* === navbar end here ==== */
+/* === banner card start here ==== */
+/* === banner card end here ==== */
 
 /* === navbar start here ==== */
 /* === navbar end here ==== */
