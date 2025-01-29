@@ -239,8 +239,444 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* === banner card end here ==== */
 
-/* === navbar start here ==== */
-/* === navbar end here ==== */
+/* === about start here ==== */
+#about{
+    padding: 140px 0;
+    background: #F9F9F9;
+}
+.about-heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.subtitle{
+    color: #289BDE;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    
+}
+.title{
+    color: #071B27;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+.about-heading p{
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 613px;
+}
+
+.about-wrapper{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.about-item{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-item-content{
+    max-width: 786px;
+}
+
+.about-item-content h3{
+    color: #071B27;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+}
+.about-item-content p{
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 41px;
+    
+}
+.about-item-content p span{
+    color: #289BDE;
+    font-weight: 700;
+}
+
+.about-item-img{
+    max-width: 454px;
+    max-height: 485px;
+    overflow: hidden;
+}
+.about-item-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-item:nth-child(even){
+    flex-direction: row-reverse;
+
+}
+/* === about end here ==== */
+
+/* === service start here ==== */
+#service{
+    padding: 156px 0;
+    background: #071B27;
+}
+.service-heading .subtitle{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+.service-heading .title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+.service-wrapper{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.service-left{
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.10);
+    max-width: 643px;
+}
+.service-item .service-item-img{
+    overflow: hidden;
+    width: 563px;
+    height: 447px;
+    background: #289BDE;
+    margin-bottom: 44px;
+}
+
+.service-item .service-item-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.service-item{
+    padding: 40px;
+}
+.service-item-content h3{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.service-item-content h3 i{
+    margin-left: 10px;
+}
+.service-item-content ul li{
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service-item-content ul li strong{
+    color: #289BDE;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.service-item-content ul li{
+    position: relative;
+    padding-left: 37px;
+    margin-top: 24px;
+}
+
+.service-item-content ul li i{
+    height: 24px;
+    width: 20.5px;
+    border-radius: 5px;
+    border: 2px solid #289BDE;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.service-wrapper .service-left:hover{
+    border: 1px solid transparent;
+}
+/* === service end here ==== */
+
+/* === mission start here ==== */
+#mission{
+    padding: 140px 0;
+    background: #FFF;
+}
+
+.mission-wrapper{
+    display: flex;
+    /* gap: 40px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.mission-wrapper .mission-image{
+    width: 662px;
+    height: 518.5px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.mission-wrapper .mission-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mission-content h4{
+    max-width: 451px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.mv .details h3{
+    color: #071B27;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    margin-bottom: 12px;
+}
+
+.mv .details p{
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+    letter-spacing: 0.16px;
+    max-width: 479px;
+}
+.mv .details{
+    position: relative;
+    padding-left: 69px;
+    margin-top: 25px;
+}
+.mv i{
+    color: #FFF;
+    background: #289BDE;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 47px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    font-size: 20px;
+}
+.mv:last-child i{
+    background: gold;
+    font-size: 20px;
+}
+/* === mission end here ==== */
+
+/* === testimonial start here ==== */
+#testimonial{
+    padding-bottom: 140px;
+    background: #FFF;
+}
+.testimonial-heading p{
+    margin: 0 auto;
+    color: #666;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    max-width: 628px;
+}
+.testimonial-wrapper{
+    margin-top: 58px;
+    display: flex;
+    /* column-gap: 24px; */
+    row-gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimonial-review{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(102, 102, 102, 0.40);
+    width: 32%;
+    
+}
+.testimonial-review .top{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.testimonial-review .top img{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.testimonial-details h5{
+    color: #071B27;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+.testimonial-details i{
+    font-size: 18px;
+    color: #FFB906;
+}
+.testimonial-review .bottom p{
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+}
+/* === testimonial end here ==== */
+
+
+/* === community start here ==== */
+#Community{
+ padding-bottom: 140px;
+}
+.community-heading p{
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 622px;
+    letter-spacing: 0.2px;
+}
+.community-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.community-left{
+    max-width: 438px;
+}
+.community-left h3{
+    color: #071B27;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    margin-bottom: 37px;
+}
+.community-left h3 i{
+    margin-left: 10px;
+}
+.community-left ul li h6{
+    color: #071B27;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.community-wrapper ul li p{
+    color: #666;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 9px;
+}
+.community-wrapper ul li{
+    position: relative;
+    padding-left: 33px;
+}
+
+.community-wrapper ul li i{
+    height: 24px;
+    width: 20.5px;
+    border-radius: 5px;
+    border: 2px solid #289BDE;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    background: #289BDE;
+    color: #FFF;
+}
+.community-wrapper ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.community-middle-img{
+    width: 294px;
+    height: 574px;
+    overflow: hidden;
+}
+.community-middle-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.community-button{
+    
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+.community-button a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    background: #289BDE;
+    padding: 13px 28px;
+    border-radius: 5px;
+    border: 1px solid transparent;  
+}
+.community-button a:hover{
+    background: #071B27;
+    border: 1px solid transparent;
+}
+/* === community end here ==== */
 
 /* === navbar start here ==== */
 /* === navbar end here ==== */
