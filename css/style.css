@@ -21,10 +21,10 @@ h1,h2,h3,h4,h5,h6,p{
 #navbar{
     
     background: #071B27;
-    position: fixed;
+    position: absolute;
     width: 100%;
     left: 0;
-    top: 0;
+    top: 33px;
     right: 0;
 }
 .container{
@@ -96,7 +96,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* === banner start here ==== */
 #banner{
-    padding: 277px 0 350px 0;
+    padding: 177px 0 350px 0;
     background: #071B27;
 }
 #banner .banner-wrapper{
@@ -242,7 +242,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* === about start here ==== */
 #about{
     padding: 140px 0;
-    background: #F9F9F9;
+    /* background: #F9F9F9; */
 }
 .about-heading{
     margin: 0 auto;
@@ -678,9 +678,244 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* === community end here ==== */
 
-/* === navbar start here ==== */
-/* === navbar end here ==== */
+/* === CONTRACT start here ==== */
+#contact{
+    padding-bottom: 100px;
+}
+.contact-heading p{
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 622px;
+    letter-spacing: 0.2px;
+}
+.contact-wrapper{
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-left{
+    max-width: 445px;
+}
+.contact-left h4{
+    color: #12141D;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 52px;
+    margin-bottom: 22px;
+}
+.contact-left p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 14px;
+}
+.contact-left .info-item img{
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.contact-left .info-item span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    display: inline-block;
+    margin-top: 15px;
 
-/* === navbar start here ==== */
-/* === navbar end here ==== */
+}
+.contact-left .info p{
+    margin-top: 21px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contact-right .box{
+    max-width:498px;
+    min-height: 692px;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+    padding: 36px;
+}
+.contact-right .box h5{
+    color: #12141D;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.contact-right .box label{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+    color: #12141D;
+}
+.contact-right .box input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #DDE1E0;
+    margin-bottom: 22px;
+    height: 50px;
+}
+.contact-right .box button{
+    width: 100%;
+    background: #289BDE;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: 1px solid transparent; 
+    margin-top: 35px; 
+}
+/* === CONTRACT end here ==== */
+
+/* === footer start here ==== */
+footer{
+    background: url("../images/footerBG.png") no-repeat left;
+    background-size: cover;
+    margin-bottom: 100px;
+    padding: 70px 0;
+}
+footer .box{
+    width: 851px;
+    /* height: 444px; */
+    border-radius: 10px;
+    background: #FFF;
+    margin:0 auto;
+    padding: 70px 0;
+    text-align: center;
+    
+}
+
+footer .box h3{
+    color: #071B27;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+
+}
+footer .box h6{
+    color: #071B27;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 11px;
+
+}
+footer .box p{
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding: 0 130px;
+}
+footer .box .footer-info{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: center;
+}
+footer .box .footer-info img{
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-right: 10px;
+}
+footer .box .footer-info{
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer .box a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    background: #289BDE;
+    padding: 13px 28px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin-top: 30px;  
+}
+.footer-line{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 68px;
+    height: 98px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+    
+
+    
+}
+.footer-middle a{
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+.footer-middle>a{
+    margin-right: 17px;
+}
+.footer-right{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+.footer-right a{
+    display: inline-block;
+    
+    
+}
+.footer-right a i{
+    font-size: 40px;
+    color: #FFF;
+    font-weight: 600;
+    background: #289BDE;
+    border: transparent;
+}
+.copyright{
+    text-align: center;
+    padding: 27px 0;
+    margin: 0 auto;
+}
+.copyright p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+}
+
+
+
+/* === footer end here ==== */
 
